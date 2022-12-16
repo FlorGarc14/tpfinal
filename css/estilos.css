@@ -1,0 +1,82 @@
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  color:#e1cbcb;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  }
+
+
+body { text-align: center;
+}
+
+    .timeline > li .timeline-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 180px;
+  height: auto;
+  margin-left: 29rem;
+  text-align: center;
+  color: white;
+
+  /* border-radius: 100%; */
+  background-color: white;
+
+.btn-primary {
+  color: #fff;
+  background-color: #BB80C8;
+  border-color: #BB80C8;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #BB80C8;
+}
+
+#mainNav { background-color: #00000066; }
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #BB80C8;
+}
+
+.card { padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #F4D03F;
+ }
+
+ .card-body {
+              justify-content: center;
+              align-items: center;
+
+ }
+
+ h5 { font-style: oblique;
+   align-items: center;
+ }
+ .row {display: flex;
+    flex-wrap: : wrap;
+    justify-content: space-around;
+  }
+
+  .imagenwsp { position: fixed;
+      margin-top:13px;
+      width:1.5rem;
+      height:auto;
+      bottom:4vw;
+      right:2vw;
+      border-radius:50px;
+      z-index:999;
+      width: 50px;
+      filter: drop-shadow(1px 1px 2px black);}
+
+section#contact {
+  background-color: #E74C3C;
+  background-image: url("../assets/img/formulario.png");
+  background-repeat: no-repeat;
+  background-position: center;
